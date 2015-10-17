@@ -1,0 +1,23 @@
+<ion-view view-title="Home">
+  <ion-content>
+      <span>His name is {{auth.profile.nickname}}</span>
+    <div id="homeButtons">
+        <div id="button_home_topquestions">
+      <button class="button button-full button-positive" >
+        Top Questions
+      </button>
+            </div>
+        <div id="button_home_mostfavourited">
+      <button class="button button-full button-calm" >
+          Most Favourited
+      </button>
+            </div>
+        <div id="button_home_beginhere">
+      <button class="button button-full button-royal" >
+          Begin Here
+      </button>
+            </div>
+      </div>
+      <input type="submit" ng-click="logout()" value="Log out" />
+  </ion-content>
+</ion-view>
